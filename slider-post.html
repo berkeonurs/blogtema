@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google Font -->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Materialize.css -->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,protection"/>
+    <!-- Style.css -->
+    <link type="text/css" rel="stylesheet" href="css/style.css"/>
+    <!-- Fontawesome İcon -->
+    <script src="https://use.fontawesome.com/ad52a923a4.js"></script>
+
+    <!-- Optimize Mobil -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <!-- Scripts -->
+    <script type="text/javascript" src="js/jquery-2.2.4.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/style.js"></script>
+    <script type="text/javascript" src="js/typed.js"></script>
+    <meta charset="UTF-8">
+    <title>Blog</title>
+</head>
+<body>
+<!-- Üst Taraf -->
+<div class="parallax-container" style="max-height:350px">
+    <div class="parallax"><img height="700px" width="700px" src="img/bg-header.jpg"></div>
+
+    <!-- Kategoriler Dropdown Menü  -->
+    <ul id="kategoriler" class="dropdown-content">
+        <li><a href="#">Alt Menü 1</a> </li>
+    </ul>
+    <!-- Kategoriler Dropdown Menü Bitiş -->
+    <nav class="transparent">
+        <div class="nav-wrapper">
+            <div class="container">
+                <a href="#" class="brand-logo">Logo</a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="#">Anasayfa</a></li>
+                    <li><a href="#">Hakkımda</a></li>
+                    <li><a class="dropdown-button" href="#" data-activates="kategoriler">Kategoriler<i class="material-icons right">arrow_drop_down</i></a></li>
+                    <li><a href="#">Videolarım</a></li>
+                    <li><a href="#">İletişim</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div id="soz" class="white-text center">
+        <span class="span"></span>
+        <span class="typed-cursor"></span>
+    </div>
+
+    <script>
+        $(function(){
+            $("#soz .span").typed({
+                strings: ["B.O.S Adam", "Bloguma Hoşgeldin"],
+                typeSpeed: 100,
+                loop: true,
+                backDelay: 500
+            });
+        });
+    </script>
+</div>
+
+
+<nav class="white" id="followme">
+    <div class="nav-wrapper">
+        <div class="container">
+            <img height="130" class="circle" src="img/mypic.jpg">
+            <div class="">
+                <span class="span">Beni Takip Edin:</span>
+                <span class="altnavbar"><a href="#"><i class="fa fa-facebook fa-fw grey-text"></i></a></span>
+                <span class="altnavbar"><a href="#"><i class="fa fa-youtube fa-fw grey-text"></i></a></span>
+                <span class="altnavbar"><a href="#"><i class="fa fa-twitter fa-fw grey-text"></i></a></span>
+                <span class="altnavbar"><a href="#"><i class="fa fa-instagram fa-fw grey-text"></i></a></span>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<!-- Üst Taraf Bitiş -->
+<!-- Post Başlangıç -->
+<div class="row">
+    <div class="col s12 m8">
+        <div class="card">
+            <div class="card-image">
+                <div class="slider">
+                    <ul class="slides">
+                        <li>
+                            <img src="http://lorempixel.com/580/250/nature/1"> <!-- random image -->
+                            <div class="caption center-align">
+                                <h3>This is our big Tagline!</h3>
+                                <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="http://lorempixel.com/580/250/nature/4"> <!-- random image -->
+                            <div class="caption center-align">
+                                <h3>This is our big Tagline!</h3>
+                                <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card-content">
+                <p class="center card-title"><a class="" href="#">This is a link</a></p>
+                <div class="center postekleyen">
+                    <div class="chip">
+                        <img src="img/yuna.jpg" alt="Contact Person">
+                        Jane Doe
+                    </div>
+                    <div class="chip">
+                        <span><i class="fa fa-calendar-o" aria-hidden="true"></i> 14.07.2016</span>
+                    </div>
+                    <div class="chip">
+                        <span><i class="fa fa-eye" aria-hidden="true"></i> 25 Görüntülenme</span>
+                    </div>
+                    <div class="chip">
+                        <span><i class="fa fa-comments-o" aria-hidden="true"></i> 18 Yorum</span>
+                    </div>
+                </div>
+            </div>
+            <div class="card-action">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ornare malesuada pharetra. Etiam tempus quis odio ut consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse at augue semper, malesuada justo eget, suscipit tellus. Pellentesque pharetra turpis quis lacus fermentum, at porttitor magna blandit. Cras sed maximus odio. Fusce nisi sem, ornare at consectetur id, fringilla at est. Duis porta ultrices dolor, nec mattis odio placerat a. Cras posuere sapien nisi, id laoreet ante fermentum sed. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ornare ipsum eros, et ultrices orci ultricies ac.
+                </p>
+                <p>
+                    Donec felis eros, fringilla in posuere eu, condimentum eget turpis. Integer in enim ornare, bibendum ipsum nec, placerat tortor. Nulla nisl odio, facilisis vitae ligula eget, consectetur bibendum ligula. Ut sit amet massa nec elit feugiat ornare ac sed ligula. Sed vitae diam eros. Nam sagittis sapien vel tristique venenatis. In et laoreet purus, vitae vulputate sapien.
+                </p>
+                <p>
+                    Nullam vitae viverra massa. Cras porta purus arcu, non vestibulum ipsum aliquet id. Quisque tortor velit, pulvinar malesuada nulla ut, pulvinar accumsan risus. Integer a malesuada urna. Cras at fringilla est, non fermentum erat. Cras ac tincidunt diam. Aenean consequat pellentesque tellus quis consectetur. Pellentesque id odio bibendum, malesuada lacus at, vehicula elit. Vestibulum accumsan felis ac dui mattis, ac sollicitudin eros faucibus. Suspendisse a feugiat nunc.
+                </p>
+                <p>
+                    Praesent feugiat euismod metus eget placerat. Maecenas vel nunc eleifend, suscipit urna quis, cursus quam. Cras ornare massa eget nisi congue porttitor. Donec sed massa libero. Integer eu tristique quam, ut interdum enim. Ut sed erat justo. Phasellus at eleifend lectus. Suspendisse posuere tellus venenatis neque feugiat, ac bibendum erat feugiat. In dignissim posuere congue.
+                </p>
+                <!-- Etiketler -->
+                <span><i class="fa fa-tags grey-text" aria-hidden="true"></i></span>
+                <div class="chip" style="padding-right: 0;">
+                    <a class="grey-text" href="#">Tag</a>
+                </div>
+                <div class="chip" style="padding-right: 0;">
+                    <a class="grey-text" href="#">Tag</a>
+                </div>
+                <!-- Etiketler Bitiş -->
+            </div>
+            <div class="card-action center">
+                <span id="" class="paylas">
+                        <span class="altnavbar"><a href="#"><i class="fa fa-facebook fa-flag fa-fw grey-text"></i></a></span>
+                        <span class="altnavbar"><a href="#"><i class="fa fa-youtube fa-fw grey-text"></i></a></span>
+                        <span class="altnavbar"><a href="#"><i class="fa fa-twitter fa-fw grey-text"></i></a></span>
+                        <span class="altnavbar"><a href="#"><i class="fa fa-instagram fa-fw grey-text"></i></a></span>
+                    </span>
+            </div>
+        </div>
+        <div class="yazar">
+            <div class="card">
+                <div class="responsive-img card-title center">
+                    <img height="150" class="circle" src="img/mypic.jpg">
+                </div>
+                <div class="card-content">
+                    <p>I am a very simple card. I am good at containing small bits of information.
+                        I am convenient because I require little markup to use effectively.</p>
+                </div>
+                <div class="card-action center">
+                    <span class="paylas">
+                        <span class="altnavbar"><a href="#"><i class="fa fa-facebook fa-flag fa-fw grey-text"></i></a></span>
+                        <span class="altnavbar"><a href="#"><i class="fa fa-youtube fa-fw grey-text"></i></a></span>
+                        <span class="altnavbar"><a href="#"><i class="fa fa-twitter fa-fw grey-text"></i></a></span>
+                        <span class="altnavbar"><a href="#"><i class="fa fa-instagram fa-fw grey-text"></i></a></span>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="card-panel">
+            <div id="disqus_thread"></div>
+                <script>
+                    /**
+                     *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+                     *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+                     */
+                    /*
+                     var disqus_config = function () {
+                     this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+                     this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+                     };
+                     */
+                    (function() {  // DON'T EDIT BELOW THIS LINE
+                        var d = document, s = d.createElement('script');
+
+                        s.src = '//bosadam.disqus.com/embed.js';
+
+                        s.setAttribute('data-timestamp', +new Date());
+                        (d.head || d.body).appendChild(s);
+                    })();
+                </script>
+                <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+        </div>
+    </div>
+
+    <!-- Sidebar Başlangıç -->
+
+    <div class="col s12 m4">
+        <!-- Ben Kimim Başlangıç -->
+        <div class="card">
+            <div class="card-content center">
+                <span class="card-title red-text">Ben Kimim?</span>
+            </div>
+            <div class="card-action center">
+                <img style="height: 150px" class="circle responsive-img" src="img/mypic.jpg">
+                <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vestibulum, magna sit amet condimentum semper, ligula turpis bibendum odio, eu auctor augue felis non ex.</p>
+            </div>
+        </div>
+        <!-- Ben Kimim Bitiş -->
+        <!-- Arama Yap Başlangıç -->
+        <div class="card">
+            <div class="card-content center">
+                <span class="card-title red-text">Arama Yap</span>
+            </div>
+            <div class="card-action center">
+                <form>
+                    <div class="input-field">
+                        <input id="search" type="search" required>
+                        <label for="search"><i class="material-icons">search</i></label>
+                        <i class="material-icons">close</i>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <!-- Arama Yap Bitiş -->
+        <!-- Reklam Alanı Başlangıç -->
+        <div class="card">
+            <div class="card-action center">
+                <a href="#"><img src="img/reklam.jpg"></a>
+            </div>
+        </div>
+        <!-- Reklam Alanı Bitiş -->
+        <!-- Facebook Başlangıç -->
+        <div class="card">
+            <div class="card-content center">
+                <span class="card-title red-text">Beni Facebook'ta Bulun</span>
+            </div>
+            <div class="card-action center">
+
+            </div>
+        </div>
+        <div id="fb-root"></div>
+
+        <!-- Facebook Bitiş -->
+
+    </div>
+
+    <!-- Sidebar Bitiş -->
+</div>
+
+<!-- Footer Başlangıç -->
+<footer class="page-footer" style="background-color: #2d2d2d">
+    <div class="container">
+        <div class="row">
+            <div class="col l4 s12">
+                <h5 class="white-text">Logo</h5>
+                <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+            </div>
+            <div class="col l4 s12 center">
+                <h5 class="white-text">Kategoriler</h5>
+                <ul>
+                    <li><a class="waves-effect waves-light btn transparent">Kategori 1</a></li>
+                    <li><a class="waves-effect waves-light btn transparent">Kategori 1</a></li>
+                    <li><a class="waves-effect waves-light btn transparent">Kategori 1</a></li>
+                    <li><a class="waves-effect waves-light btn transparent">Kategori 1</a></li>
+                </ul>
+            </div>
+            <div class="col l4  s12 center">
+                <h5 class="white-text">Sayfalar</h5>
+                <ul>
+
+                    <li><a class="waves-effect waves-light btn transparent">Sayfa 1</a></li>
+                    <li><a class="waves-effect waves-light btn transparent">Sayfa 1</a></li>
+                    <li><a class="waves-effect waves-light btn transparent">Sayfa 1</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright grey darken-4" style="color: #777777;">
+        <div class="container">
+            <span>© 2016 Tüm Hakları Saklıdır | Designed By <a href="http://onursunecli.com">Berke Onur Süneçli</a></span>
+            <span class="right altnavbar">
+                        <a href="#"><i class="fa fa-facebook fa-flag fa-fw grey-text"></i></a>
+                        <a href="#"><i class="fa fa-youtube fa-fw grey-text"></i></a>
+                        <a href="#"><i class="fa fa-twitter fa-fw grey-text"></i></a>
+                        <a href="#"><i class="fa fa-instagram fa-fw grey-text"></i></a>
+            </span>
+        </div>
+    </div>
+</footer>
+<!-- Footer Bitiş -->
+
+
+
+</body>
+</html>

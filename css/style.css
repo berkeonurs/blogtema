@@ -1,0 +1,98 @@
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+#soz {
+    font-size: 50px;
+    margin-top: 80px;
+}
+#followme {
+    height: 70px;
+    margin-bottom: 80px;
+}
+#followme img {
+    position: relative;
+    bottom:30px;
+}
+
+#followme a {
+    position: relative;
+    bottom: 150px;
+    left:200px;
+}
+#followme .span {
+    color: grey;
+    position: relative;
+    bottom: 150px;
+    left:200px;
+}
+
+
+.paylas {
+    margin-top: 8px;
+}
+
+.postekleyen {
+    font-size: 13px;
+}
+.hoverimg {
+    display: inline-block;
+    overflow: hidden;
+}
+
+.hoverimg img {
+    max-width: 100%;
+
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.hoverimg img:hover{
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+
+
+
+.altnavbar:hover .fa-facebook:before {
+    color: #3b5998;
+}
+
+.altnavbar:hover .fa-youtube:before {
+    color: #e62117;
+}
+
+.altnavbar:hover .fa-twitter:before {
+    color: #0084b4;
+}
+
+.altnavbar:hover .fa-instagram:before {
+    color: #db534c;
+}
+
+
+
+.yazar img {
+    margin-top: 10px;
+}
